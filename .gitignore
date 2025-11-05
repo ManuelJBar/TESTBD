@@ -1,0 +1,44 @@
+
+# Ignorar carpetas del sistema
+Desktop/
+Documents/
+Downloads/
+AppData/
+
+Application Data/
+OneDrive/
+Videos/
+Pictures/
+Music/
+
+# Ignorar archivos temporales y binarios
+*.log
+*.tmp
+*.bak
+*.exe
+*.dll
+*.class
+
+# Ignorar carpetas de desarrollo
+.idea/
+.vscode/
+node_modules/
+.anaconda/
+.ipynb_checkpoints/
+.conda/
+.lemminx/
+.m2/
+.ssh/
+
+# Ignorar archivos específicos
+*.iml
+Thumbs.db
+.DS_Store
+.env
+
+git add .
+git commit -m "Primer commit del proyecto limpio"
+git remote add origin https://github.com/ManuelJBar/TESTBD.git
+git branch -M main
+git push -u origin main
+
