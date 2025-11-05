@@ -1,0 +1,5 @@
+id,nombre,precio
+1,"Ratón",12.50
+2,"Teclado",25.00
+3,"Monitor",150.99
+4,"Altavoces",35.75
