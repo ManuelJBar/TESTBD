@@ -1,0 +1,50 @@
+# Archivos de Python
+*.pyc
+__pycache__/
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Archivos temporales y de sistema
+*.log
+*.tmp
+.DS_Store
+Thumbs.db
+
+# Configuración local
+.vscode/
+*.code-
+# Evitar archivos de configuración local y de sistema
+AppData/
+*.jtx
+*.log
+*.old
+*.tmp
+*.dat
+*.ini
+*.db
+*.sqlite
+*.bak
+*.swp
+*.swo
+# Ignorar carpetas del sistema
+AppData/
+Application Data/
+*.exe
+*.log
+*.tmp
+*.dat
+*.old
+*.sqlite
+*.bak
+*.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# Ignorar carpetas personales
+Pictures/
+Videos/
+Music/
+Documents/
+OneDrive/
